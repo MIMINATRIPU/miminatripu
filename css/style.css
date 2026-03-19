@@ -39,22 +39,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FDC608", endC
     }
     .title {
     font-size: clamp(2rem, 10vw, 14vw);
-        font-weight: bolder;
+        font-weight: 800;
             text-transform: uppercase;
                 white-space: normal;
-                    animation: glow 1.5s infinite alternate, glow-pulse 2s infinite alternate;
                         text-align: center;
                             position: relative;
-                            padding: 0 10px;
-                            line-height: 1.1;
+                                padding: 0 10px;
+                                    line-height: 1.1;
+                                        text-shadow: 0 0 20px rgba(253,198,8,255);
+
                            
                                 
                            
-    }
-
-    @keyframes glow {
-        from { text-shadow: 0 0 20px rgb(255, 213, 0), 0 0 20px orange; }
-            to { text-shadow: 0 0 20px rgb(255, 208, 0), 0 0 40px red; }
     }
 
     .nav {
@@ -137,12 +133,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FDC608", endC
     }
 
     .logo {
-        width: 200px;
-        
+        width: 250px;
                 border-radius: 50%;
-                    box-shadow: 0 0 20px rgba(253,198,8,255);
+                    box-shadow: 0 0 0px rgba(253,198,8,255);
                         transition: transform 0.3s ease;
-                            max-width: 200px;
+                            max-width: 250px;
                                
                             
     }
@@ -332,7 +327,7 @@ textarea:focus {
 
 .about-image img {
     width: 100%;
-    max-width: 550px;
+    max-width: 800px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(253,198,8,255);
     margin-top: 40px;
@@ -396,7 +391,7 @@ textarea:focus {
     margin-top: clamp(80px, 15vw, 200px);
 }
 
-.member-jony, .member-adam, .member-dan, .member-dory {
+.member-jony, .member-adam, .member-dan, .member-dory, .member-david, .member-kaja{
     margin: clamp(10px, 3vw, 50px);
     background-color: #000000;
     padding: clamp(15px, 4vw, 30px);
@@ -405,7 +400,7 @@ textarea:focus {
     font-size: clamp(14px, 2.5vw, 20px);
     font-weight: 500;
 }
-.member-jony h2, .member-adam h2, .member-dan h2, .member-dory h2 {
+.member-jony h2, .member-adam h2, .member-dan h2, .member-dory h2, .member-david h2, .member-kaja h2{
     color: rgba(253,198,8,255);
     text-shadow: 0 0 10px rgba(253,198,8,255);
     font-size: clamp(1.8rem, 5vw, 50px);
@@ -424,7 +419,7 @@ textarea:focus {
     line-height: 1.6;
     color: #f0f0f0;
 }
-.member-adam p, .member-dan p, .member-dory p, .member-jony p {
+.member-adam p, .member-dan p, .member-dory p, .member-jony p, .member-david p, .member-kaja p{
     line-height: 1.6;
     color: #f0f0f0;
     font-weight: 600;
