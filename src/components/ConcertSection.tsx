@@ -32,25 +32,26 @@ const ConcertSection = () => {
               Meziříčská Muzejní Noc
             </h3>
             <p className="text-foreground/60 mb-8">Valašské Meziříčí</p>
+            <p className="text-foreground/100 mb-8 font-semibold">Koncert již proběhl, děkujeme za skvělou atmosféru!</p> {/* text pro koncert ktery probehl */}
 
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <Calendar className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Datum:</span> <strong>29. 5. 2026</strong></span>
+                <span><span className="text-foreground/60 text-sm">Datum:</span> <strong><s>29. 5. 2026</s></strong></span> {/* element <s> pro škrknutí datumu.*/}
               </li>
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <Clock className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Začátek:</span> <strong>21:30</strong></span>
+                <span><span className="text-foreground/60 text-sm">Začátek:</span> <strong><s>21:30</s></strong></span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <MapPin className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Místo:</span> <strong>KZ – u zámku</strong></span>
+                <span><span className="text-foreground/60 text-sm">Místo:</span> <strong><s>KZ – u zámku</s></strong></span>
               </li>
             </ul>
 
