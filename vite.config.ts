@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/miminatripu2-upgrade/", // PŘIDÁNO: Musí odpovídat názvu tvého repozitáře
+  base: "/miminatripu/", // PŘIDÁNO: Musí odpovídat názvu tvého repozitáře
   server: {
     host: "::",
     port: 8080,
