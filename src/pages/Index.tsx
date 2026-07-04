@@ -8,6 +8,7 @@ import Members from "@/components/Members";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import InteractiveBackground from "@/components/InteractiveBackground";
+import NewAlbumBanner from "@/components/NewAlbumBanner";
 import ScrollProgress from "@/components/ScrollProgress";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
     <main className="relative min-h-screen">
       <InteractiveBackground />
       <ScrollProgress />
+      <NewAlbumBanner />
       <Navbar />
       <Hero />
       <Marquee />

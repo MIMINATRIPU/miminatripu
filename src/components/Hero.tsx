@@ -5,7 +5,7 @@ import heroStage from "@/assets/hero-stage.jpg";
 import logo from "@/assets/logo.png";
 
 const SpotifyIcon = () => (
-  <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
+  <svg viewBox="0 0 24 24" className="h-6 w-6 sm:h-7 sm:w-7" fill="currentColor" aria-hidden>
     <path d="M12 0a12 12 0 100 24 12 12 0 000-24zm5.5 17.3a.75.75 0 01-1 .25c-2.8-1.7-6.3-2-10.4-1.1a.75.75 0 11-.3-1.5c4.5-1 8.4-.6 11.5 1.3.4.2.5.7.2 1.05zm1.5-3.3a.94.94 0 01-1.3.3c-3.2-2-8-2.5-11.7-1.4a.94.94 0 11-.5-1.8c4.3-1.3 9.6-.7 13.2 1.5.45.3.55.9.3 1.4zm.1-3.4c-3.8-2.3-10.2-2.5-13.8-1.4a1.13 1.13 0 11-.65-2.16c4.2-1.27 11.2-1.02 15.6 1.6a1.13 1.13 0 01-1.15 1.96z" />
   </svg>
 );
@@ -117,7 +117,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4 }}
-          className="mt-12 flex items-center justify-center gap-3"
+          className="mt-12 flex items-center justify-center gap-4"
         >
           {socials.map((s) => {
             const Icon = s.icon;
@@ -128,7 +128,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={s.label}
-                className="group flex h-12 w-12 items-center justify-center rounded-full border border-border bg-background/60 backdrop-blur text-foreground/80 hover:text-primary-foreground hover:bg-primary hover:border-primary transition-all hover:-translate-y-1"
+                className="group flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-full border border-border bg-background/60 backdrop-blur text-foreground/80 hover:text-primary-foreground hover:bg-primary hover:border-primary transition-all hover:-translate-y-1 shadow-sm"
               >
                 <Icon />
               </a>

@@ -10,7 +10,7 @@ const links = [
   { label: "Singl", href: "#singl" },
   { label: "Koncerty", href: "#koncerty" },
   { label: "Členové", href: "#clenove" },
-  { label: "Galerie", href: "https://photos.google.com/u/1/albums?hl=cs&pli=1", external: true },
+  { label: "Galerie", href: "-", external: true },
   { label: "Kontakt", href: "#kontakt" },
 ];
 

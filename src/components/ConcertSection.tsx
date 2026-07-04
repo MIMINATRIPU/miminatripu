@@ -29,34 +29,34 @@ const ConcertSection = () => {
           <div className="p-8 sm:p-12 relative">
             <div className="absolute top-0 right-0 h-40 w-40 bg-primary/20 blur-3xl rounded-full" />
             <h3 className="font-display font-bold text-2xl sm:text-3xl mb-2">
-              Meziříčská Muzejní Noc
+              Hudební Lhota a Pivní Festival 2026
             </h3>
-            <p className="text-foreground/60 mb-8">Valašské Meziříčí</p>
-            <p className="text-foreground/100 mb-8 font-semibold">Koncert již proběhl, děkujeme za skvělou atmosféru!</p> {/* text pro koncert ktery probehl */}
+            <p className="text-foreground/60 mb-8">Starojická Lhota</p>
+            <p className="text-foreground/100 mb-8 font-semibold">Festival, kde se potkává skvělá muzika, pivo z minipivovarů a pohodová atmosféra pod širým nebem.</p> {/* text pro koncert ktery probehl */}
 
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <Calendar className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Datum:</span> <strong><s>29. 5. 2026</s></strong></span> {/* element <s> pro škrknutí datumu.*/}
+                <span><span className="text-foreground/60 text-sm">Datum:</span> <strong>1. 8. 2026</strong></span> {/* element <s> pro škrknutí datumu.*/}
               </li>
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <Clock className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Začátek:</span> <strong><s>21:30</s></strong></span>
+                <span><span className="text-foreground/60 text-sm">Začátek:</span> <strong>18:00</strong></span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <MapPin className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Místo:</span> <strong><s>KZ – u zámku</s></strong></span>
+                <span><span className="text-foreground/60 text-sm">Místo:</span> <strong>Starojická Lhota</strong></span>
               </li>
             </ul>
 
             <a
-              href="https://mmn.kzvalmez.cz/domu/#customblock-17"
+              href="https://www.facebook.com/events/1361548739082215"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground shadow-glow hover:scale-105 transition"
@@ -69,7 +69,7 @@ const ConcertSection = () => {
           <div className="relative min-h-[320px] lg:min-h-full">
             <iframe
               title="Mapa koncertu"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.6827665194323!2d17.968362463129083!3d49.47160852469134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471390e75ca230e3%3A0x65354a56044c53e2!2zS8OhemV0a28g4oCUIEt1bHR1cm7DrSB6YcWZw616ZW7DrSBtxJtzdGEgVmFsYcWhc2vDqWhvIE1lemnFmcOtxI3DrSwgcC5vLg!5e0!3m2!1scs!2scz!4v1777545077247!5m2!1scs!2scz"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d646.8280456035063!2d17.917775347187284!3d49.572999952524974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471395f305da1c99%3A0xc81b23a662df44a5!2sPohostinstv%C3%AD%20Starojick%C3%A1%20Lhota!5e0!3m2!1scs!2scz!4v1783200365666!5m2!1scs!2scz"
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
