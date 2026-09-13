@@ -102,7 +102,7 @@ const Hero = () => {
             href="#singl"
             className="group relative overflow-hidden rounded-full bg-primary px-8 py-4 font-semibold text-primary-foreground shadow-glow magnetic-btn hover:scale-105"
           >
-            <span className="relative z-10">Poslechni si singl</span>
+            <span className="relative z-10">Album</span>
             <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition-transform duration-700" />
           </a>
           <a

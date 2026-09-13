@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Play } from "lucide-react";
-import singlCover from "@/assets/romske-prokleti.jpg";
+import singlCover from "@/assets/symbol.png";
 
-// Original site uses single date around mid-Feb 2026; we set a target.
-const TARGET = new Date("2026-02-15T00:00:00").getTime();
+// Countdown target: 12:00 AM on 2 October 2026.
+const TARGET = new Date("2026-10-02T00:00:00").getTime();
 
 const calc = () => {
   const distance = TARGET - Date.now();
@@ -53,11 +53,11 @@ const SinglSection = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-12"
         >
-          <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">// nový singl</p>
+          <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary mb-4">// nové album</p>
           <h2 className="font-display font-bold text-4xl sm:text-6xl tracking-tight">
-            <span className="text-gradient">ROMSKÉ PROKLETÍ</span>
+            <span className="text-gradient">TŘETÍ SVĚTOVÁ</span>
           </h2>
-          <p className="mt-3 text-foreground/60">je na všech streamovacích platformách!</p>
+          <p className="mt-3 text-foreground/60">Album, které vám změní pohled na svět!</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -74,18 +74,18 @@ const SinglSection = () => {
               <div className="relative h-full w-full rounded-3xl overflow-hidden border-2 border-primary/40 shadow-elegant">
                 <img
                   src={singlCover}
-                  alt="ROMSKÉ PROKLETÍ – obal singlu"
+                  alt="TŘETÍ SVĚTOVÁ – obal singlu"
                   loading="lazy"
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-cover opacity-10 sm:opacity-20"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-background/40 via-transparent to-background/70" />
                 <div className="absolute inset-x-0 bottom-0 p-6 text-center">
-                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary mb-2 block">SINGL · 2026</span>
+                  <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-primary mb-2 block">ALBUM · 2026</span>
                   <h3 className="font-display font-black text-2xl sm:text-4xl text-glow leading-none">
-                    ROMSKÉ PROKLETÍ
+                    TŘETÍ SVĚTOVÁ
                   </h3>
                   <span className="mt-3 inline-block h-px w-16 bg-primary" />
-                  <span className="mt-2 font-mono text-xs text-primary block">MIMINATRIPU</span>
+                  <span className="mt-2 font-mono text-xs text-primary block">Cover odhálíme brzy...</span>
                 </div>
                 {/* vinyl */}
                 <div className="absolute -right-24 top-1/2 -translate-y-1/2 h-56 w-56 rounded-full bg-black border-8 border-zinc-900 shadow-2xl opacity-80 group-hover:-right-12 transition-all duration-700" style={{ animation: "spin 14s linear infinite" }}>
@@ -103,7 +103,7 @@ const SinglSection = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <p className="text-foreground/70 mb-6 max-w-md">
-              Odpočet do dalšího hudebního překvapení. Zůstaň naladěn na našich streamovacích kanálech.
+              Již 2.10. 2026 výjde naše první album na kterém jsme pracovali přes 2 roky. Připravili jsme pro vás 9 písní, které vás provedou naším pohledem na svět a život. Sledujte náš odpočet a buďte připraveni na tento nezapomenutelný zážitek!
             </p>
             <div className="flex flex-wrap gap-3 sm:gap-2">
               <Cell value={t.d} label="Dní" />

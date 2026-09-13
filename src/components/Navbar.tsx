@@ -7,7 +7,7 @@ import logo from "@/assets/logo.png";
 
 const links = [
   { label: "O nás", href: "#onas" },
-  { label: "Singl", href: "#singl" },
+  { label: "Album", href: "#singl" },
   { label: "Koncerty", href: "#koncerty" },
   { label: "Členové", href: "#clenove" },
   { label: "Galerie", href: "-", external: true },

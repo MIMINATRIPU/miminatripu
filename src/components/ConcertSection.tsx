@@ -3,19 +3,14 @@ import { motion } from "framer-motion";
 
 const upcomingConcerts = [
   {
-    title: "Stanley Start B-day Party",
-    date: "12. 9. 2026",
-    place: "Valašské Meziříčí | DimenzeX",
-    time: "start - 16:00",
-  },
-  {
-    title: "MIMINATRIPU - Křest alba",
-    date: "3. 10. 2026",
-    place: "Valašské Meziříčí | M-klub",
-    time: "čas upřesníme!",
+    title: "Koncert s Moře Kuřat",
+    date: "14. 10. 2026",
+    time: "Upřesníme",
+    place: "Brno | Hudební klub Melodka",
   },
 
 ];
+
 
 const ConcertSection = () => {
   return (
@@ -44,46 +39,46 @@ const ConcertSection = () => {
           <div className="p-8 sm:p-12 relative">
             <div className="absolute top-0 right-0 h-40 w-40 bg-primary/20 blur-3xl rounded-full" />
             <h3 className="font-display font-bold text-2xl sm:text-3xl mb-2">
-              Valašské Zkušebny #10
+              KŘEST ALBA
             </h3>
-            <p className="text-foreground/60 mb-8">Rožnov pod Radhoštěm | Vrátnice</p>
-            <p className="text-foreground/100 mb-8 font-semibold">Jubilejní 10. ročník festivalu lokálních kapel</p>
+            <p className="text-foreground/60 mb-8">Valašské Meziříčí  | M - Klub</p>
+            <p className="text-foreground/100 mb-8 font-semibold">Křest našeho debutového alba, které vychází 2.10. 2026. Křest proběhne 3.10. 2026 v M-klubu ve Valašském Meziříčí. Zároveň s námi zahrají Moře Kuřat! Lístky v předprodeji.</p>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <Calendar className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Datum:</span> <strong>11. 9. 2026</strong></span>
+                <span><span className="text-foreground/60 text-sm">Datum:</span> <strong>3. 10. 2026</strong></span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <Clock className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Začátek:</span> <strong>17:00</strong></span>
+                <span><span className="text-foreground/60 text-sm">Začátek:</span> <strong>19:00</strong></span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-primary">
                   <MapPin className="h-4 w-4" />
                 </span>
-                <span><span className="text-foreground/60 text-sm">Místo:</span> <strong>Vrátnice | Rožnov pod Radhoštěm</strong></span>
+                <span><span className="text-foreground/60 text-sm">Místo:</span> <strong>Valašské Meziříčí | M-klub</strong></span>
               </li>
             </ul>
 
             <a
-              href="https://www.tka.cz/program/2026/09/valasske-zkusebny-10"
+              href="-"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground shadow-glow hover:scale-105 transition"
             >
-              Stránka akce <ExternalLink className="h-4 w-4" />
+              Lístky <ExternalLink className="h-4 w-4" />
             </a>
           </div>
 
           <div className="relative min-h-[320px] lg:min-h-full">
             <iframe
               title="Mapa koncertu"
-              src="https://mapy.com/s/felanugago"
+              src="https://mapy.com/s/gamujacano"
               loading="lazy"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
