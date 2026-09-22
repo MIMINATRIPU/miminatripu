@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Play } from "lucide-react";
-import singlCover from "@/assets/symbol.png";
+import singlCover from "@/assets/album-cover.png";
 
 // Countdown target: 12:00 AM on 2 October 2026.
 const TARGET = new Date("2026-10-02T00:00:00").getTime();
@@ -76,7 +76,7 @@ const SinglSection = () => {
                   src={singlCover}
                   alt="TŘETÍ SVĚTOVÁ – obal singlu"
                   loading="lazy"
-                  className="absolute inset-0 h-full w-full object-cover opacity-10 sm:opacity-20"
+                  className="absolute inset-0 h-full w-full object-cover opacity-10 sm:opacity-100"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-background/40 via-transparent to-background/70" />
                 <div className="absolute inset-x-0 bottom-0 p-6 text-center">
@@ -85,7 +85,7 @@ const SinglSection = () => {
                     TŘETÍ SVĚTOVÁ
                   </h3>
                   <span className="mt-3 inline-block h-px w-16 bg-primary" />
-                  <span className="mt-2 font-mono text-xs text-primary block">Cover odhálíme brzy...</span>
+                  <span className="mt-2 font-mono text-xs text-primary block">.</span>
                 </div>
                 {/* vinyl */}
                 <div className="absolute -right-24 top-1/2 -translate-y-1/2 h-56 w-56 rounded-full bg-black border-8 border-zinc-900 shadow-2xl opacity-80 group-hover:-right-12 transition-all duration-700" style={{ animation: "spin 14s linear infinite" }}>

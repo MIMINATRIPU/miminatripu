@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const upcomingConcerts = [
   {
-    title: "Koncert s Moře Kuřat",
+    title: "MIMINATRIPU | Moře Kuřat | Kruh 19",
     date: "14. 10. 2026",
-    time: "Upřesníme",
+    time: "19:30",
     place: "Brno | Hudební klub Melodka",
   },
 
@@ -42,7 +42,7 @@ const ConcertSection = () => {
               KŘEST ALBA
             </h3>
             <p className="text-foreground/60 mb-8">Valašské Meziříčí  | M - Klub</p>
-            <p className="text-foreground/100 mb-8 font-semibold">Křest našeho debutového alba, které vychází 2.10. 2026. Křest proběhne 3.10. 2026 v M-klubu ve Valašském Meziříčí. Zároveň s námi zahrají Moře Kuřat! Lístky v předprodeji.</p>
+            <p className="text-foreground/100 mb-8 font-semibold">Křest našeho debutového alba, které vychází 2.10. 2026. Křest proběhne 3.10. 2026 v M-klubu ve Valašském Meziříčí. Lístky v předprodeji.</p>
 
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
@@ -66,7 +66,7 @@ const ConcertSection = () => {
             </ul>
 
             <a
-              href="-"
+              href="https://mklub.kzvalmez.cz/udalost/6344-miminatripu-more-kurat/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground shadow-glow hover:scale-105 transition"
