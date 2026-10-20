@@ -3,10 +3,7 @@ import { motion } from "framer-motion";
 
 const upcomingConcerts = [
   {
-    title: "MIMINATRIPU | Moře Kuřat | Kruh 19",
-    date: "14. 10. 2026",
-    time: "19:30",
-    place: "Brno | Hudební klub Melodka",
+
   },
 
 ];
